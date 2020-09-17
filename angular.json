@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Car-frontend"
+    }
+  },
+  "defaultProject": "Car-frontend",
+  "cli": {
+    "analytics": "4c8b3896-df63-4bd8-b6a9-ab37fdf7bd53"
+  }
 }
