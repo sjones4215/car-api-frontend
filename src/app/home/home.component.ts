@@ -16,9 +16,12 @@ export class HomeComponent implements OnInit {
   constructor(private carService: CarService, private router: Router) { }
 
   ngOnInit(): void {
-    this.carService.getAllCars().subscribe(data =>{
-      this.cars;
-      return console.log(data)
+    this.retrieveAllCars()
+  }
+
+  retrieveAllCars(){
+  this.carService.getAllCars().subscribe(data =>{
+    debugger
     })
   }
 

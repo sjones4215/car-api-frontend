@@ -1,0 +1,19 @@
+.card{
+  border: 10px;
+  border-color: grey;
+  height: 100vh;
+  padding-left: 400px;
+  padding-right: 400px;
+  justify-content: center;
+  text-align: center;
+
+  button{
+    color: white;
+    background-color: red;
+    border-color: black;
+
+    &:hover{
+      background:lighten($color: black, $amount: 0)
+    }
+  }
+}

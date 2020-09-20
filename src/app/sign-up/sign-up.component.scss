@@ -1,0 +1,18 @@
+.card{
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 25px;
+  border: grey;
+  border-width: 15px;
+  height: 100vh;
+
+  button{
+    background-color: red;
+    color: white;
+    border: none;
+
+    &:hover{
+      background:lighten($color: #000000, $amount: 0)
+    }
+  }
+}
