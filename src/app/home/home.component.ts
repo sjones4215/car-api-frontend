@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-import { Car } from '../models/car'
+import { Car } from '../models/car';
 import { CarData } from '../models/car-data'
 import { CarService } from '../services/car.service'
 
@@ -24,6 +24,7 @@ export class HomeComponent implements OnInit {
   this.carService.getAllCars().subscribe(data =>{
     if(data)
       this.cars = data.cars;
+      console.log("this.cars")
     })
   }
 
