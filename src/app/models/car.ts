@@ -1,4 +1,4 @@
-export class Car{
+export class Car {
   id: number
   year: number
   make: string
@@ -7,3 +7,4 @@ export class Car{
   price: number
   image: string
 }
+

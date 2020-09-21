@@ -12,6 +12,7 @@ import { CarService } from '../services/car.service'
 })
 
 export class HomeComponent implements OnInit {
+
   cars: Car[] = [ ]
   constructor(private carService: CarService, private router: Router) { }
 
@@ -21,7 +22,8 @@ export class HomeComponent implements OnInit {
 
   retrieveAllCars(){
   this.carService.getAllCars().subscribe(data =>{
-    debugger
+    if(data)
+      this.cars = data.cars;
     })
   }
 

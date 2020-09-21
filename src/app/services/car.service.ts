@@ -4,7 +4,6 @@ import { Injectable } from '@angular/core';
 import { environment } from 'src/environments/environment';
 import { HttpClient } from '@angular/common/http';
 import { CarData } from '../models/car-data'
-import { Car } from '../models/car'
 import { Observable } from 'rxjs';
 
 @Injectable({

@@ -1,6 +1,6 @@
 import { Car } from './car';
 export class CarData {
-    puppies: Car[];
+    cars: Car[];
     reviews: any[];
 
 }
