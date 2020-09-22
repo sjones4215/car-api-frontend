@@ -5,6 +5,7 @@ export class Car {
   model: string
   color: string
   price: number
+  description: string
   image: string
 }
 
