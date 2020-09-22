@@ -3,9 +3,9 @@
     <img class="card-img-top" [src]= "car.image" alt="Card image cap">
     <div class="card-body">
       <h5 class="card-title">{{car.year}}, {{car.make}}, {{car.model}}, {{car.color}}</h5>
-      <div class="text" *ngIf="car.description">
-      <p class="card-text">{{car.description}}</p>
-      
+      <div class="text" *ngIf="car.info">
+      <p class="card-text">{{car.info}}</p>
+
       </div>
     </div>
 </div>
